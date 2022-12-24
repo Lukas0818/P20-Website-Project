@@ -1,6 +1,10 @@
 ## P20 Baigiamasis darbas
 
-Įsirašant projektą paleiskite šia komanda.
+Prieš paleidžiant projektą paleiskite šia komandą pycharm'o terminale:
 ```bash
 pip install -r requirments.txt
+```
+Norėdami paleisti programa naudokite šią komandą:
+```bash
+python app.py
 ```
