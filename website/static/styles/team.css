@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.member {
+  width: 20%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.member img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.member h3 {
+  margin: 0.5em 0;
+}
