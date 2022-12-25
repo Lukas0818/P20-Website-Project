@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+}
+
+.top {
+    flex: 0 0 auto;
+}
+
+.bottom {
+    flex: 1 1 auto;
+}
