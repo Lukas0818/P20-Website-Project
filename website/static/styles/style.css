@@ -38,11 +38,6 @@ body {
   align-items: center;
 }
 
-.title {
-  font-size: 2em;
-  margin-bottom: 1em;
-}
-
 .team {
   display: flex;
   flex-wrap: wrap;
