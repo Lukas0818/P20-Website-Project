@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, flash, jsonify
+from flask import Blueprint, render_template
 from flask_login import login_required, current_user
 from .models import Services
 
@@ -22,6 +22,7 @@ def services():
 @login_required
 def photo():
     return render_template("photo.html", user=current_user)
+
 
 @views.route('/team', methods=['GET', 'POST'])
 @login_required
